@@ -38,7 +38,7 @@ document.getElementById('contact-link').addEventListener('click', function(e) {
 });
 
 
- document.addEventListener("DOMContentLoaded", function() {
+ document.addEventListener("DOMContentLoaded"), function() {
     const aboutMe = "I'm Fatima Conde from Guinea,conakry. I was born and brought up in lagos,Nigeria.I'm a Web developer. I can provide clean code and make perfect designs on websites.I also make website more and more interactive with web animations.";
     const aboutMeElement = document.getElementById("about-text");
 
@@ -66,22 +66,22 @@ document.getElementById('contact-link').addEventListener('click', function(e) {
             rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
             rect.right <= (window.innerWidth || document.documentElement.clientWidth)
         );
-    }
+ }}
 
-    function checkVisibility() {
-        if (isElementInViewport(aboutTextElement)) {
-            typeWriter(aboutText, aboutTextElement, 50);
-            window.removeEventListener("scroll", checkVisibility);
-        }
-    }
+//     function checkVisibility() {
+//         if (isElementInViewport(aboutTextElement)) {
+//             typeWriter(aboutText, aboutTextElement, 50);
+//             window.removeEventListener("scroll", checkVisibility);
+//         }
+//     }
 
 
-    window.addEventListener('scroll', handleScroll);
-    document.querySelector('nav').addEventListener('click', handleNavClick);
+//     window.addEventListener('scroll', handleScroll);
+//     document.querySelector('nav').addEventListener('click', handleNavClick);
 
     
-    aboutParagraph.style.animationPlayState = 'stop';
-});
+//     aboutParagraph.style.animationPlayState = 'stop';
+// });
 
 
 
@@ -100,10 +100,9 @@ document.getElementById('contact-link').addEventListener('click', function(e) {
           
 //             form.reset();
 
-            
+//             d
 //             setTimeout(() => {
 //                 successMessage.classList.add('hidden');
 //             }, 3000); 
 //         }, 2000); 
 //     });
-// });
